@@ -17,10 +17,12 @@
     </picture>
     <h1>Reproduzindo audios em html5</h1>
     <p>Estou aprendendo a colocar audio no site</p>
-    <audio>
-        <audio src=""></audio>
+    <audio preload="metadata" controls loop>
+        <source src="midias/musica (1).mp3" type="audio/mpeg">
+        <source src="midias/musica (1).ogg" type="audio/OGG">
+        <source src="midias/musica (1).wav" type="audio/wav">
+        <p>Infelizmente não foi possível reproduzir o audio. <a href="midias/musica (1).mp3" download="musica (1).mp3" type="applicantion/mp3">Clique aqui</a> para fazer o Download</p>
     </audio>
-        <source src="midias/musica (1).mp3" type="audio/MP3">
     
     <!-- Formatos: MP3 WAV OGG-->
 </body>
