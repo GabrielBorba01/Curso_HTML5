@@ -48,6 +48,7 @@ header {
 header > h1 {
     font-size: 3em;
     padding-top: 30px;
+    font-weight: normal;
 }
 
 header > p {
@@ -93,16 +94,19 @@ main{
 main h1{
     padding: 4px;
     color: var(--cor5);
+    font-size: 1.8em;
     font-family: var(--fonte-android);
+    font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     border-radius: 3px;
 }
 
 main h2{
-    color: var(--cor4);
+    color: var(--cor4);     
     padding: 4px;
     font-family: var(--fonte-android);
     font-size: 1.3em;
+    font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     border-radius: 3px;
 }
@@ -146,10 +150,20 @@ main img.pequena{
     
 }
 
+.video {
+    background-color: #063d1e;
+
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
 iframe {
     display: block;
+    width: 80%;
     margin: auto;
     background-color: var(--cor4);
+    border-radius: 4px;
 }
 
 aside {
